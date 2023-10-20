@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+  scroll-behavior: smooth;
+
+}
+
+
+.containerCalc {
+  background-image: url("4.jpg");
+  background-position-x: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: hsl(228, 9%, 10%);
+}
+
+.currency-converter {
+  margin-left: -20px;
+  background-color: hsla(240, 3%, 11%, 0.814);
+  padding: 2rem;
+  border-radius: 5px;
+  width: 350px;
+
+}
+.currency-converter .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(6, 236, 6, 0.699);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.currency-converter .title1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #DC143C;
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+
+.exchange-rate {
+  margin: 2rem 0;
+}
+.exchange-rate p {
+  font-size: 1.2rem;
+}
+
+.from-currency,
+.to-currency {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  gap: 10px;
+}
+input,
+select {
+  width: 49%;
+  height: 50px;
+  font-size: 1.5rem;
+}
+input {
+  padding-left: 5px;
+}
+
+.cities {
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cities select {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  width: 50%;
+}
+
+.exchangeBtn{
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#from-currency-amount, #to-currency-amount{
+  border-radius: 10px;
+}
+
+.cash{
+  border-radius: 10px;
+  text-align: right;
+}
+
+.btn-primary1 {
+  margin-top: 16px;
+  margin-left: 25%;
+  display: flex;
+  position: relative;
+  background-color: #34C924;
+  max-width: max-content;
+  font-weight: var(--fw-700);
+  padding: 13px 30px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn1 {
+  color: var(--white);
+  border-radius: 50px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.btn-primary2 {
+  margin-top: 16px;
+  margin-left: 25%;
+  display: flex;
+  position: relative;
+  background-color: #DC143C;
+  max-width: max-content;
+  font-weight: var(--fw-700);
+  padding: 13px 30px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+
+.text-container {
+  display: flex; /* Используем flex-контейнер для выравнивания элементов по горизонтали */
+  justify-content: space-between; /* Распределяем пространство между элементами */
+}
+
+#reservoir,#rate{
+  color: whitesmoke;
+  margin-top: 10px;
+}
+
+strong{
+  color: whitesmoke;
+  font-weight: var(--fw-700);
+}
+
+#links{
+  color: rgb(62, 134, 251);
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.links-container{
+  display: flex;
+  justify-content: space-between;
+}
